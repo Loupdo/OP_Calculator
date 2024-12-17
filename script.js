@@ -58,7 +58,6 @@ for (i=0;i<=9;i++){
      equalBtn.addEventListener("click", ()=> {
         num2 = Number(displayarray.join(''))
         clear()
-        result.innerText=
         resultIT = operate(`${operator}`, num1, num2)
         result.innerText = resultIT
      })
